@@ -1,0 +1,21 @@
+{
+    "manifest_version" : 3,
+    "name" : "Timer Extension", 
+    "version" : "1.0.0",
+    "description" : "This is a simple timer extension build with html, css and javascript.",
+    "icons":{
+        "16":"./images/timer.png",
+        "48":"./images/timer.png",
+        "128":"./images/timer.png"
+    },
+    "action": {
+        "default_icon" : {
+            "16" : "./images/timer.png",
+            "24" : "./images/timer.png",
+            "32" : "./images/timer.png"
+        },
+        "default_title" : "Timer extension",
+        "default_popup" : "popup.html"
+    },
+    "options_page" : "options.html"
+}
